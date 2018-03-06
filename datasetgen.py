@@ -1,6 +1,8 @@
 import cv2
-cam = cv2.VideoCapture(0)#primary webcam selected
-detector=cv2.CascadeClassifier('Classifiers/face.xml')#used the haar face classifier
+cam = cv2.VideoCapture(0)
+#primary webcam selected
+detector=cv2.CascadeClassifier('Classifiers/face.xml')
+#used the haar face classifier
 i=0
 offset=50
 name=raw_input('enter your id')
